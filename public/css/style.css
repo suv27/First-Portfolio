@@ -3,13 +3,10 @@ body{
   height: 100;
   margin: 0;
   padding: 0;
-  background-attachment: fixed;
-  background-position: center;
 }
 
 /* MY HEADINGS */
 /*****************************************************************************************************************/
-
 .all-h1 {
   color: #FF0000;
   font-size: 3em;
@@ -21,12 +18,14 @@ body{
 /*****************************************************************************************************************/
 
 .bg-image {
-  width: 100%;
   overflow-x: hidden;
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+}
+
+.wrapper{
+  width: 70%;
 }
 
 /* MY BIOGRAPHY */
@@ -53,8 +52,6 @@ body{
 }
 
 .about-me {
-  height: 100%;
-  width: 100%;
   color: white;
   font-size: 1em;
   text-align: center;
@@ -196,7 +193,7 @@ body{
 .btn-social-icon{
   height: 48px;
   color: #FFF;
-  margin: 10px;
+  margin: 5%;
   background-color: white;
 }
 
