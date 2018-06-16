@@ -6,6 +6,12 @@ app.set('view engine', 'ejs');
 
 app.get(`/`, (req, res) => {
   res.render('index', {
+    skills: ['Java', 'Android', 'C++','HTML','CSS', 'JavaScript', 'PostgreSQL', 'MySQLite', 'NodeJS','ExpressJS']
+  });
+});
+
+app.get('/blog', (req, res) => {
+  res.render('blog', {
 
   });
 });
