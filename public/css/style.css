@@ -1,0 +1,273 @@
+body{
+  width: 100%;
+  height: 100;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* MY HEADINGS */
+/*****************************************************************************************************************/
+
+.all-h1 {
+  color: #FF0000;
+  font-size: 3em;
+  padding: 30px 0 20px 15px;
+  font-family: 'Concert One', cursive;
+}
+
+/* BACKGROUND IMAGES FOR ALL MY CONTAINERS */
+/*****************************************************************************************************************/
+
+.bg-image {
+  width: 100%;
+  overflow-x: hidden;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* MY BIOGRAPHY */
+/*****************************************************************************************************************/
+.firstContainer{
+  background-image: url("https://images.unsplash.com/photo-1496674205429-924b32acd421?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c79e9fb8930b09f0c2885309718bf351&auto=format&fit=crop&w=800&q=60");
+}
+
+.wrapper-1 {
+  width: 70%;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.myImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 120px;
+  width: 20em;
+  border-radius: 100%;
+  border: 2px solid white, 4px solid white;
+}
+
+.about-me {
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  padding-bottom: 28%;
+}
+
+/* EDUCATION */
+/*****************************************************************************************************************/
+
+.secondContainer {
+  background-image: url("https://images.unsplash.com/photo-1515704089429-fd06e6668458?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3860371df6121bd9176d5889b487c3e1&auto=format&fit=crop&w=800&q=60");
+}
+
+.wrapper-2 {
+  width: 70%;
+  color: white;
+  margin: 0 auto;
+}
+
+.wrapper-2 .school h3 {
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+}
+
+.year {
+  padding-bottom: 30px;
+}
+
+/* MY PROJETCS */
+
+/*****************************************************************************************************************/
+
+.thirdContainer{
+  background-image: url("https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=88b86a41ffe1921e290445f0bd0465d2&auto=format&fit=crop&w=800&q=60");
+}
+
+.wrapper-3 {
+  width: 70%;
+  color: white;
+  margin: 0 auto;
+}
+
+.wrap-flex{
+  padding: 5%;
+  display: flex;
+}
+
+.wrap-flex div img{
+  padding: 5%;
+  margin: 0;
+  display: inline;
+}
+
+.title {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.imagesSSG {
+  width: 100%;
+}
+
+.imagesToDo {
+  width: 47%;
+}
+
+.imagesSM {
+  width: 47%;
+}
+
+/*****************************************************************************************************************/
+
+.fourthContainer {
+  background-image: url("https://images.unsplash.com/photo-1503619609774-87677812b060?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f52753125b20b0d8f2da465e39f25a4e&auto=format&fit=crop&w=800&q=60");
+}
+
+.wrapper-4 {
+  width: 70%;
+  color: white;
+  margin: 0 auto;
+}
+
+.skills {
+  width: auto;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+  display: inline-flex;
+  line-height: 1.33333em;
+  text-transform: uppercase;
+  padding: 2%;
+  margin: 1em;
+  border-radius: 10px;
+  border: 2px solid #FF0000;
+  box-shadow: 0 0 5px #FFF;
+}
+
+.cen {
+  margin: 0 auto;
+}
+
+
+/* CONTACT ME  */
+/*****************************************************************************************************************/
+.fifthContainer {
+  background-image: url("https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=45fbe9046945ce711c299b8c6d26d998&auto=format&fit=crop&w=800&q=60");
+}
+
+.wrapper-5{
+  width: 70%;
+  color: white;
+  margin:  0 auto;
+}
+
+.info{
+  width: 70%;
+  margin: 25% auto;
+  text-align: center;
+  font-size: 22px;
+  padding: 1em;
+  border-radius: 50px;
+  box-shadow: 0 0 50px white;
+}
+
+/* FOLLOW ME  */
+/*****************************************************************************************************************/
+
+.sixthContainer {
+  width: auto;
+  position: fixed;
+  color: white;
+  top: 50%;
+  left: 5%;
+  margin-left: 1em;
+  transform: translate(-50%, -50%);
+}
+
+.btn-social-icon{
+  height: 48px;
+  color: #FFF;
+  margin: 10px;
+  background-color: white;
+}
+
+.fab{
+  font-size: 2em;
+  font-weight: 800;
+  font-style: italic;
+  font-size-adjust: auto;
+}
+
+.btn-facebook{
+  background-color: #3B5998;
+}
+
+.btn-instagram{
+  background-color: #517fa4;
+}
+
+.btn-linkedin{
+  background-color: #0077b5;
+}
+
+.btn-github{
+  background-color: #333;
+}
+
+.slider{
+  position: absolute;
+  width: 0px;
+  height: 48px;
+  left: 60px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 3px;
+  transform: translate( 0, -100%);
+  transition: all 0.5s ease;   /* FOR SMOOTH TRANSITION EFFECTS FOT THE SLIDERS IN THE LOGOS */
+  background-color: #123456
+}
+
+.slider p{
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+}
+
+.facebook .slider{
+   background-color: #3B5998;
+ }
+
+ .instagram .slider{
+   background-color: #517fa4;
+ }
+
+ .linkedin .slider{
+   background-color: #0077b5;
+ }
+
+ .github .slider{
+   background-color: #333;
+ }
+
+ /* MAGIC FOR THE SLIDER */
+.logo:hover .slider{
+  width: 180px;
+  transition: all 0.5s ease;
+}
+
+.logo:hover .slider p{
+  opacity: 1;
+  transition: all 1s 0.2s ease;
+}
