@@ -114,10 +114,30 @@ textarea {
   background-color: yellow;
 }
 
+#comments{
+  outline: none;
+  border: 0;
+  border-radius: 15px;
+  background-color: yellow;
+}
+
+#comments:hover{
+  font-size: 18px;
+  border: 2px solid white;
+  box-shadow: 0 0 20px white;
+}
+
 @media only screen and (min-width: 375px) and (max-width: 812px) {
   #submitId {
     color: white;
     border: 0;
+    background-color: red;
+  }
+
+  #comments{
+    color: white;
+    border: 0;
+    border-radius: 15px;
     background-color: red;
   }
 }
@@ -126,6 +146,13 @@ textarea {
   #submitId {
     color: white;
     border: 0;
+    background-color: green;
+  }
+
+  #comments{
+    color: white;
+    border: 0;
+    border-radius: 15px;
     background-color: green;
   }
 }
