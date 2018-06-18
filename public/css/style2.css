@@ -40,6 +40,10 @@ body {
   font-size-adjust: auto;
 }
 
+.hide{
+  display: none;
+}
+
 @media only screen and (min-width: 375px) and (max-width: 812px) {
   #wrapper {
     width: 70px;

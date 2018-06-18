@@ -6,18 +6,18 @@ const parser = require('body-parser');
 app.use(parser.urlencoded({extended: true}));
 app.use(express.json());
 app.use(express.static('public'));app.set('view engine', 'ejs');
-// const pool = new Pool({
-//     user: 'postgres',
-//     host: 'localhost',
-//     database: 'postgres',
-//     password: '#BeastMode27',
-//     port: 5432,
-// });
+const pool = new Pool({
+    user: 'postgres',
+    host: 'localhost',
+    database: 'postgres',
+    password: '#BeastMode27',
+    port: 5432,
+});
 
-const pool = new Pool ({
-  connectionString: process.env.DATABASE_URL,
-  ssl: true
-})
+// const pool = new Pool ({
+//   connectionString: process.env.DATABASE_URL,
+//   ssl: true
+// })
 
 let newObj = {};
 
@@ -31,7 +31,6 @@ app.get('/blog', (req, res) => {
   pool.query('SELECT * FROM opinions', (req2, res2) => {
 
     newObj = res2.rows;
-    console.log(newObj);
 
     res.render('blog', {
       data: newObj
