@@ -59,7 +59,7 @@ app.post('/post', (req, res) => {
 
 app.get('*', (req, res) => {
   res.status(404);
-  res.send('NOT FOUND');
+  res.send('PAGE NOT FOUND');
 });
 
 
