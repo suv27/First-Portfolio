@@ -1,16 +1,55 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Blog</title>
-    <%- include('partials/links.ejs') %>
-  </head>
-  <body>
 
-    <div id="container">
-      <%- include('partials/nav.ejs') %>
+<head>
+  <meta charset="utf-8">
+  <title>Blog</title>
+  <%- include('partials/links.ejs') %>
+    <link rel="stylesheet" type="text/css" href="/css/style2.css">
+</head>
+
+<body>
+
+  <%- include('partials/nav.ejs') %>
+    <div class="container">
+
+      <div class="heading">
+        <h1>Post your Message</h1>
+      </div>
+
+      <form action="post" method="POST">
+
+        <div class="title">
+          <label id="labels" for="title">Title</label>
+          <input id="titleId" type="text" name="title" required="true">
+        </div>
+
+        <div class="message">
+          <label id="labels" for="message">Message</label>
+          <textarea name="message" cols="40" rows="5" required="true"></textarea>
+          <!-- <input id="messageId" type="text" name="message" > -->
+        </div>
+
+        <div class="submit">
+          <input id="submitId" class="btn-success" type="submit" name="submit" value="Post">
+        </div>
+
+      </form>
+
+      <div class="comments">
+        <% for(var i = 0; i < data.length; i++) { %>
+        <div class="peoplePosts">
+          <h3><%= data[i].title %></h3>
+          <p><%= data[i].message %></p>
+        </div>
+        <% } %>
+      </div>
+
 
     </div>
 
-  </body>
+
+
+</body>
+
 </html>
