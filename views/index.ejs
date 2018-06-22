@@ -33,125 +33,126 @@
           </div>
 
         </div>
-
-        <!-- <div class="secondContainer bg-image"> -->
-        <div id="education" class="wrapper-2 col-lg-10 col-xs-10">
-          <!-- EDUCATION -->
-          <!-- ********************************************************************************************************************************************************************************- -->
-          <h1 class="all-h1 col-lg-12 col-sm-12">Education</h1>
-
-          <!-- UDEMY -->
-          <!-- ********************************************************************************************************************************************************************************- -->
-          <div class="school col-lg-9 col-sm-9">
-            <h3>City University of New York-Herbert H. Lehman College</h3>
-            <p>Bachelor in Computer Science</p>
-          </div>
-
-          <div class="year col-lg-9 col-sm-9">
-            <p>2017 - Present</p>
-            <p>Undergraduate</p>
-          </div>
-
-          <!-- UDEMY -->
-          <!-- ********************************************************************************************************************************************************************************- -->
-          <div class="school col-lg-9 col-sm-9">
-            <h3>Udemy Academy</h3>
-            <p>Web Development</p>
-          </div>
-
-          <div class="year col-lg-3 col-sm-3">
-            <p>2018 - Present</p>
-            <p>Undergraduate</p>
-          </div>
-
-          <!-- BMCC -->
-          <!-- ********************************************************************************************************************************************************************************- -->
-          <div class="school col-lg-9 col-sm-9">
-            <h3>Borough of Manhattan Community College</h3>
-            <p> Associate in Computer Science</p>
-          </div>
-
-          <div class="year col-lg-3 col-sm-3">
-            <p>2014 - 2016</p>
-            <p>Graduated</p>
-          </div>
-
-          <!-- UNITY -->
-          <!-- ********************************************************************************************************************************************************************************- -->
-          <div class="school col-lg-9 col-sm-9">
-            <h3>Unity Center for Urban Technologies</h3>
-            <p>High School Degree</p>
-          </div>
-
-          <div class="year col-lg-3 col-sm-3">
-            <p>2010 - 2014</p>
-            <p>Graduated</p>
-          </div>
-        </div>
-        <!-- </div> -->
-
-        <!-- <div class="thirdContainer bg-image"> -->
-
-        <div class="wrapper-3 col-lg-10">
-          <!-- Projects -->
-          <!-- ********************************************************************************************************************************************************************************- -->
-          <h1 class="all-h1">Projects</h1>
-
-          <div class="wrap-flex col-lg-12">
-
-            <div>
-              <h1 class="title"> <a href="https://github.com/Physsi07/SpaceShipGame">Space Ship</a></h1>
-              <img class="imagesSSG" src="Pictures/spaceShip.png">
-            </div>
-
-            <div>
-              <h1 class="title"> <a href="https://github.com/Physsi07/To-Do-List-App">To Do List</a></h1>
-              <img class="imagesToDo" src="Pictures/adding.png">
-              <img class="imagesToDo" src="Pictures/notes.png">
-            </div>
-
-            <div>
-              <h1 class="title"> <a href="https://github.com/Physsi07/SlotMachineGame">Slot Machine</a></h1>
-              <img class="imagesSM" src="Pictures/SMimg1.png">
-              <img class="imagesSM" src="Pictures/SMimg2.png">
-            </div>
-          </div>
-        </div>
-        <!-- </div> -->
-
-
-        <!-- <div class="fourthContainer bg-image"> -->
-        <div class="wrapper-4 col-lg-10 col-xs-10">
-          <!-- Skills -->
-          <!-- ********************************************************************************************************************************************************************************- -->
-          <h1 class="all-h1 col-lg-12 col-sm-12">Skills</h1>
-
-          <div class="cen col-lg-8">
-            <% for(var i= 0; i< skills.length; i++) {%>
-              <span class="skills"><%= skills[i] %></span>
-              <% } %>
-          </div>
-
-        </div>
-        <!-- </div> -->
-
-        <!-- <div class="fifthContainer bg-image"> -->
-        <div id="contact" class="wrapper-5 col-lg-10 col-xs-10">
-          <!-- CONTACT ME -->
-          <!-- ********************************************************************************************************************************************************************************- -->
-          <!-- <h1 class="all-h1 pjt col-lg-12 col-sm-12">Contact Me</h1> -->
-          <div class="info">
-            <h1 >Contact Me</h1>
-            <h3>urenav33.com</h3>
-            <h3>929-228-9363</h3>
-            <h6>Copyright © 2014 Starlyn Urena Ventura</h6>
-          </div>
-        </div>
-        <!-- </div> -->
-
-        <%- include('partials/followme.ejs') %>
-
     </div>
+
+    <div class="secondContainer bg-image">
+      <div id="education" class="wrapper-2 col-lg-10 col-xs-10">
+        <!-- EDUCATION -->
+        <!-- ********************************************************************************************************************************************************************************- -->
+        <h1 class="all-h1 col-lg-12 col-sm-12">Education</h1>
+
+        <!-- UDEMY -->
+        <!-- ********************************************************************************************************************************************************************************- -->
+        <div class="school col-lg-9 col-sm-9">
+          <h3>City University of New York-Herbert H. Lehman College</h3>
+          <p>Bachelor in Computer Science</p>
+        </div>
+
+        <div class="year col-lg-9 col-sm-9">
+          <p>2017 - Present</p>
+          <p>Undergraduate</p>
+        </div>
+
+        <!-- UDEMY -->
+        <!-- ********************************************************************************************************************************************************************************- -->
+        <div class="school col-lg-9 col-sm-9">
+          <h3>Udemy Academy</h3>
+          <p>Web Development</p>
+        </div>
+
+        <div class="year col-lg-3 col-sm-3">
+          <p>2018 - Present</p>
+          <p>Undergraduate</p>
+        </div>
+
+        <!-- BMCC -->
+        <!-- ********************************************************************************************************************************************************************************- -->
+        <div class="school col-lg-9 col-sm-9">
+          <h3>Borough of Manhattan Community College</h3>
+          <p> Associate in Computer Science</p>
+        </div>
+
+        <div class="year col-lg-3 col-sm-3">
+          <p>2014 - 2016</p>
+          <p>Graduated</p>
+        </div>
+
+        <!-- UNITY -->
+        <!-- ********************************************************************************************************************************************************************************- -->
+        <div class="school col-lg-9 col-sm-9">
+          <h3>Unity Center for Urban Technologies</h3>
+          <p>High School Degree</p>
+        </div>
+
+        <div class="year col-lg-3 col-sm-3">
+          <p>2010 - 2014</p>
+          <p>Graduated</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="thirdContainer bg-image">
+
+      <div class="wrapper-3 col-lg-10">
+        <!-- Projects -->
+        <!-- ********************************************************************************************************************************************************************************- -->
+        <h1 class="all-h1">Projects</h1>
+
+        <div class="wrap-flex col-lg-12">
+
+          <div>
+            <h1 class="title"> <a href="https://github.com/Physsi07/SpaceShipGame">Space Ship</a></h1>
+            <img class="imagesSSG" src="Pictures/spaceShip.png">
+          </div>
+
+          <div>
+            <h1 class="title"> <a href="https://github.com/Physsi07/To-Do-List-App">To Do List</a></h1>
+            <img class="imagesToDo" src="Pictures/adding.png">
+            <img class="imagesToDo" src="Pictures/notes.png">
+          </div>
+
+          <div>
+            <h1 class="title"> <a href="https://github.com/Physsi07/SlotMachineGame">Slot Machine</a></h1>
+            <img class="imagesSM" src="Pictures/SMimg1.png">
+            <img class="imagesSM" src="Pictures/SMimg2.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="fourthContainer bg-image">
+      <div class="wrapper-4 col-lg-10 col-xs-10">
+        <!-- Skills -->
+        <!-- ********************************************************************************************************************************************************************************- -->
+        <h1 class="all-h1 col-lg-12 col-sm-12">Skills</h1>
+
+        <div class="cen col-lg-8">
+          <% for(var i= 0; i< skills.length; i++) {%>
+            <span class="skills"><%= skills[i] %></span>
+            <% } %>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="fifthContainer bg-image">
+      <div id="contact" class="wrapper-5 col-lg-10 col-xs-10">
+        <!-- CONTACT ME -->
+        <!-- ********************************************************************************************************************************************************************************- -->
+        <!-- <h1 class="all-h1 pjt col-lg-12 col-sm-12">Contact Me</h1> -->
+        <div class="info">
+          <h1>Contact Me</h1>
+          <h3>urenav33.com</h3>
+          <h3>929-228-9363</h3>
+          <h6>Copyright © 2014 Starlyn Urena Ventura</h6>
+        </div>
+      </div>
+    </div>
+
+    <%- include('partials/followme.ejs') %>
+
+  </div>
 
   </div>
 
